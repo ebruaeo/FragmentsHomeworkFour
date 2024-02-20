@@ -33,13 +33,9 @@
         tools:layout="@layout/fragment_b" >
         <action
             android:id="@+id/action_BFragment_to_YFragment"
-            app:destination="@id/YFragment" />
+            app:destination="@id/YFragment"
+            app:popUpTo="@id/anasayfaFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/YFragment"
-        android:name="com.example.fragmentshomeworkfour.YFragment"
-        android:label="fragment_y"
-        tools:layout="@layout/fragment_y" />
     <fragment
         android:id="@+id/XFragment"
         android:name="com.example.fragmentshomeworkfour.XFragment"
@@ -50,4 +46,15 @@
             app:destination="@id/YFragment"
             app:popUpTo="@id/anasayfaFragment" />
     </fragment>
+
+
+    <fragment
+        android:id="@+id/YFragment"
+        android:name="com.example.fragmentshomeworkfour.YFragment"
+        android:label="fragment_y"
+        tools:layout="@layout/fragment_y" >
+
+
+    </fragment>
+
 </navigation>
