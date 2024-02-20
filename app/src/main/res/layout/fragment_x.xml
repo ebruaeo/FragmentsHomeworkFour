@@ -15,11 +15,11 @@
         android:text="SAYFA X"
         android:textColor="#FF5722"
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
-        app:layout_constraintEnd_toEndOf="@+id/button5" />
+        app:layout_constraintBottom_toTopOf="@+id/FromXToYBtn"
+        app:layout_constraintEnd_toEndOf="@+id/FromXToYBtn" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/FromXToYBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="260dp"
